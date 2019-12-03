@@ -1,0 +1,165 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	padding: 0;
+	margin: 0;
+	font-family: "microsoft yahei";
+}
+
+.bg{
+	width: 820px;
+	height: auto;
+	margin: 0 auto;
+	background-color: #515151;
+}
+
+.a01{
+	width: 100%;
+	padding-top: 42px;
+	font-size: 30px;
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+}
+
+.fahuodan01{
+	width: 740px;
+	height: 204px;
+	margin: 56px auto 0;
+	padding-top: 36px;
+	border: 1px solid #fff;
+	position: relative;
+}
+
+.b01{
+	width: 68px;
+	height: 24px;
+	background-color: #515151;
+	font-size: 20px;
+	line-height: 24px;
+	text-align: center;
+	color: #fff;
+	position: absolute;
+	left: 24px;
+	top: -13px;
+}
+
+.b00{
+	width: 100%;
+	height: 80px;
+	color: #fff;
+	font-size: 20px;
+	vertical-align: middle;
+}
+
+.b00 p{
+	margin-left: 28px;
+	margin-right: 12px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.b00 .c00{
+	display: inline-block;
+	vertical-align: middle;
+	height: 70px;
+}
+
+.b00 .b02{
+	width: 192px;
+	height: 40px;
+	margin-right: 20px;
+	vertical-align: middle;
+}
+
+.b00 .b03{
+	width: 192px;
+	height: 40px;
+	margin-left: 20px;
+	margin-right: 20px;
+	vertical-align: middle;
+}
+
+.shouhuodan01{
+	width: 740px;
+	height: 408px;
+	margin: 56px auto 0;
+	padding-top: 36px;
+	border: 1px solid #fff;
+	position: relative;
+}
+
+.b00 .b04{
+	width: 224px;
+	height: 32px;
+	vertical-align: middle;
+	margin-left: 14px;
+}
+
+[type="checkbox"]{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.shouhuodan01 .b00 .p01{
+	margin-left: 6px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.huowuxinxi01{
+	width: 740px;
+	height: 180px;
+	margin: 56px auto 0;
+	padding-top: 36px;
+	border: 1px solid #fff;
+	position: relative;
+}
+
+.b05{
+	width: 88px;
+	height: 24px;
+	background-color: #515151;
+	font-size: 20px;
+	line-height: 24px;
+	text-align: center;
+	color: #fff;
+	position: absolute;
+	left: 24px;
+	top: -13px;
+}
+
+.b06{
+	width: 540px;
+	height: 40px;
+	margin-right: 20px;
+	vertical-align: middle;
+}
+
+.b07{
+	width: 64px;
+	height: 40px;
+	margin-right: 20px;
+	vertical-align: middle;
+}
+
+.b08{
+	width: 152px;
+	height: 40px;
+	margin-right: 20px;
+	vertical-align: middle;
+}
+
+.bottom{
+	padding-top: 26px;
+	width: 200px;
+	height: 60px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+[type="button"]{
+	width: 60px;
+	height: 30px;
+}

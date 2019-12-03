@@ -1,0 +1,212 @@
+/* CSS Document */
+
+/*body标签样式*/
+
+* {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+body{
+	height: 2000px;
+	padding: 0;
+	margin: 0 auto;
+	font-size: 12px;
+}
+
+/*导航背景 黑颜色区域*/
+.top{
+	width: 100%;
+	height: 50px;
+	background-image: url(../images/btn.png);
+	position: fixed;
+	top: 0px;
+	opacity: 0.98;
+	z-index: 3;
+}
+
+.top ul{
+	width: 900px;
+	height: 100%;
+	padding-top: 5px;
+	margin: 0 auto;
+}
+
+.top01{
+	position: absolute;
+	top: 6px;
+}
+
+.top02{
+	width: 118px;
+	height: 40px;
+	color: #fff;
+	font-family: "microsoft yahei";
+	font-size: 14px;
+	line-height: 40px;
+	text-align: center;
+	float: right;
+	cursor: pointer;
+}
+
+.top02:last-child{
+	width: 118px;
+	height: 40px;
+	background-image: url(../images/btn2.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #fff;
+	font-family: "microsoft yahei";
+	font-size: 14px;
+	line-height: 40px;
+	text-align: center;
+	float: right;
+}
+
+.top02:hover{
+	background-image: url(../images/btn2.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.top02+.top02{
+	margin:0 5px;
+}
+
+
+/*导航背景 黄颜色区域*/
+.bj{
+	width: 100%;
+	height: 40px;
+	background-color: #ffd200;
+	margin-top: 50px;
+}
+
+/*ul标签*/
+.nav{
+	width: 560px;
+	height: 40px;
+	margin: 0 auto;
+	padding-left: 0;
+}
+
+/*li标签*/
+.nav li{
+	list-style: none;
+	font-family: "microsoft yahei";
+	font-size: 13px;
+	width: 70px;
+	height: 40px;
+	border-radius: 14px;
+	float: left;
+	text-align: center;
+	line-height: 40px;
+	position: relative;
+	z-index: 5;
+}
+
+/*鼠标移入li标签变化*/
+.nav li::before{
+	content: "";
+	width: 68px;
+	height: 28px;
+	background-color: #edaf1a;
+	border-radius: 14px;
+	position: absolute;
+	top: 6px;
+	left: 1px;
+	z-index: -1;
+	display: none;
+}
+
+/*鼠标移入li标签变化-第一个li标签*/
+.nav li:first-child::after{
+	content: url(../images/sanjiao.png);
+	position: absolute;
+	left: 26px;
+	top: -22px;
+	z-index: 5;
+	display: none;
+}
+
+/*控制显示li标签*/
+.nav li:hover::before{
+	display: block;
+}
+
+.nav li:hover::after{
+	display: block;
+}
+
+/*鼠标移入时li标签颜色*/
+.nav li:hover{
+	color: #fff;
+	cursor: pointer;
+}
+
+/*主体部分*/
+.middle{
+	width: 1200px;
+	height: 1800px;
+	margin: 0 auto;
+	background-color: #CECECE;
+	padding: 30px 0 30px 0;
+}
+
+.middle li{
+	display: inline-block;
+	width: 250px;
+	height: 260px;
+	background-color: #fff;
+	text-align: center;
+	padding-top: 30px;
+	float: left;
+}
+
+.middle li:hover{
+	display: inline-block;
+	width: 250px;
+	height: 260px;
+	background-color: #fff;
+	text-align: center;
+	padding-top: 30px;
+	margin-top: -2px;
+	box-shadow: 0 15px 30px 0 rgba(0,0,0,0.70);
+	float: left;
+}
+
+.middle li+li{
+	margin-left: 20px;
+}
+
+.middle li img{
+	width: 150px;
+}
+
+.middle .span01{
+	display: inline-block;
+	width: 200px;
+	font-size: 14px;
+	font-family: "microsoft yahei";
+	margin-top: 10px;
+	color: #000;
+}
+
+.middle .span02{
+	display: inline-block;
+	width: 200px;
+	font-size: 12px;
+	font-family: "microsoft yahei";
+	margin-top: 8px;
+	color: rgba(173,173,173,1.00);
+}
+
+.middle .span03{
+	display: inline-block;
+	width: 200px;
+	font-size: 12px;
+	font-family: "microsoft yahei";
+	margin-top: 10px;
+	color: rgba(235,0,3,1.00);
+}

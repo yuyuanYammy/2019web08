@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+
+iframe{
+	width: 100%;
+	height: 100%;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+body{
+	background-color: #555;
+}
+
+.top00{
+	width: 100%;
+	height: 33px;
+	background-color: rgba(30,30,30,0.80);
+	position: fixed;
+	z-index: 99;
+}
+
+.top01{
+	width: 80%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.top01 li{
+	font-family: "黑体";
+	width: 110px;
+	height: 100%;
+	float: right;
+	text-align: center;
+	line-height: 33px;
+	color: #939393;
+	cursor: pointer;
+}
+
+.top01 li.top02{
+	float: left;
+	width: 160px;
+}
+
+.top02:hover {
+	color: #00c8c8;
+}
+
+.top01-mouse:hover {
+	color: #00c8c8;
+}
+
+.box{
+	margin: 0 auto;
+	width: 860px;
+	height: 1200px;
+	background-color:rgba(173,202,235,0.30);
+}
+
+.box .left{
+	float: left;
+	width: 140px;
+	height: 1200px;
+	padding-top: 60px;
+	padding-left: 60px;
+}
+
+.box li{
+	margin-bottom: 20px;
+	width: 160px;
+	height: 100px;
+}
+
+.li01{
+	width: 160px;
+	height: 100px;
+}
+
+.box .right{
+	width: 620px;
+	height: 1200px;
+	float: right;
+	padding-top: 60px;
+}
+
+.kuang{
+	border: 2px solid rgba(255,255,255,0.80);
+	width: 560px;
+	height: 400px;
+}
+
